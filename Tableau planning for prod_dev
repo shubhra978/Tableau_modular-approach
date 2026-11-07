@@ -1,0 +1,42 @@
+DEV Environment
+-------------------
+Plain Text
+1. P-MAT (DEV)
+│
+├── ENV (DEV)
+
+│
+├── 1.1 Live Analysis (DEV)
+│ │
+│ └── analysis dashboard
+│ │
+│ │── physical data source with queries connection(not visible within workbook)
+│ ├── Datasource 1
+│ ├── Datasource 2
+│ └── Datasource 3
+│
+│
+├── AMS-BI
+
+\
+
+Prod environment
+-------------------
+1 Production Material
+│
+├── 11 Ordering
+│     │
+│     ├── Data Sources
+│     │     ├── PROD Datasources
+│     │     └── Shared Datasources
+│     │
+│     ├── Others
+│     │
+│     └── Standard Analyses
+│            │
+│            └── analysis dashboard
+│                  │
+                  │── physical data source with queries connection(not visible within workbook)
+│                  ├── Datasource 1
+│                  ├── Datasource 2
+│                  └── Datasource 3
