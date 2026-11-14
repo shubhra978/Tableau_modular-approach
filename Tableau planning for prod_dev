@@ -40,3 +40,13 @@ Prod environment
 │                  ├── Datasource 1
 │                  ├── Datasource 2
 │                  └── Datasource 3
+
+
+
+tableau export option:
+export to crosstab excel
+export as powerpoint
+export as pdf
+
+
+
