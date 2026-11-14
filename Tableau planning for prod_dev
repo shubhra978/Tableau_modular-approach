@@ -43,6 +43,30 @@ Prod environment
 
 
 
+tasks to do:
+1.  First edit the prod data source and create the same mdel prepared in dev data sources inlcuding models, relation, joins, aggregation, sql.
+
+2.  Next compare both of the data sources with one or two kpi's to validate the two data source.
+
+3.  Now publish the data source in a different location rather than publishing the data source on the original location.
+    This will avoid the unavailibility of reports connected to it and always publish as an extract.
+
+4.  Then do a full check on the aliases, names , hidden columns and run a optimiser if possible as the ds can be of huge size.
+
+5.  Next move the new published data source to its original location with the same name to over write it.
+
+6.  Now open the dev workbook and with dev connection as the server login. You can check from the data tab for the dev login confirmation
+
+7.  Next change connection to the prod server to and connect to the smae data sources as dev ds.
+
+8.  Now check for all kpi's, used aliases, filters, visuals and match with the dev workbook
+
+9.  Now publish the workbook with same name in the prod server provided location and replace it.
+
+10. go to settings of that location and click on(...) dots beside the workbook name and change ownership to the prev owner
+
+11. If anything fails you can always check on that same triple dot option to go rollback via option revise version to its last version
+
 tableau export option:
 export to crosstab excel
 export as powerpoint
